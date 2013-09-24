@@ -20,7 +20,7 @@ class BaseController{
 
     public function _render(){
         $this->title = $this->action;
-        return $this->{$this->action}($this->params);
+        return call_user_func_array(array($this, $this->action), $this->params);
     }
 
     public function index(){
