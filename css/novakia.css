@@ -17,7 +17,6 @@ div#BodyContainer{
 main{
     overflow: auto;
     padding-bottom: 150px;
-
 }
 div#FooterContainer{
     margin: -150px auto 0px auto;
@@ -51,6 +50,24 @@ nav li{
 
 .clear{
     clear:both;
+}
+
+ol{
+    list-style-type: decimal;
+}
+
+ol li{
+    padding: 3px 0px 3px 0px;
+}
+
+ul.bullet, ol{
+    -webkit-padding-start: 40px;
+}
+
+.bullet, .bullet li{
+    list-style-type: disc;
+    padding: 3px 0px 3px 0px;
+    list-style-position: outside;
 }
 /* Site Appearance */
 
@@ -89,8 +106,19 @@ div#BodyContainer{
 }
 
 h1{
-    font-size: 25px;
+    font-size: 1.5em;
     font-weight: bold;
+    margin: 5px 0px 15px 0px;
+}
+h2{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 5px 0px 15px 0px;
+}
+h3{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 3px 0px 8px 0px;
 }
 
 nav{
