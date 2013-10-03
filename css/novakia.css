@@ -1,10 +1,107 @@
+/* Site Layout */
+
+html{
+    height: 100%;
+}
 body{
-    background-color:#557700;
+    height: 100%;
 }
 
 div#BodyContainer{
     width: 800px;
     margin: 0px auto;
+    min-height: 100%;
     display:block;
-    background-color: #DDDD55;
 }
+
+main{
+    overflow: auto;
+    padding-bottom: 150px;
+
+}
+div#FooterContainer{
+    margin: -150px auto 0px auto;
+    height: 150px;
+    width: 800px;
+    clear:both;
+}
+#TopNavContainer{
+    display: block;
+    height:28px;
+}
+
+nav li{
+    display:inline-block;
+    float:left;
+    height: 20px;
+    margin: 0 2px 0 0;
+    padding: 4px;
+}
+
+
+/* General Classes */
+.center{
+    display: block;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clear{
+    clear:both;
+}
+/* Site Appearance */
+
+body{
+    background-image: linear-gradient(bottom, #69B2FB 0%, #962F0A 91%);
+    background-image: -o-linear-gradient(bottom, #69B2FB 0%, #962F0A 91%);
+    background-image: -moz-linear-gradient(bottom, #69B2FB 0%, #962F0A 91%);
+    background-image: -webkit-linear-gradient(bottom, #69B2FB 0%, #962F0A 91%);
+    background-image: -ms-linear-gradient(bottom, #69B2FB 0%, #962F0A 91%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #69B2FB),
+        color-stop(0.91, #962F0A)
+    );
+
+    color: #100000;
+}
+
+div#BodyContainer{
+    background-image: linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);
+    background-image: -o-linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);
+    background-image: -moz-linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);
+    background-image: -webkit-linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);
+    background-image: -ms-linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #BFDFFF),
+        color-stop(0.71, #69B2FB)
+    );
+}
+
+h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav{
+    background-color:#962F0A
+}
+
+nav li{
+    background-color:#BFDFFF;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
