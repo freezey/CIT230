@@ -24,6 +24,5 @@
             <?=$footer?>
         </footer>
     </div>
-    <div class="clear"></div>
 </body>
 </html>
