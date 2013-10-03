@@ -7,7 +7,7 @@
     <li>Learn new PHP practices that will push my programming skills even farther</li>
 </ol>
 <h2>Methods</h2>
-    <ul>
+    <ul class="bullet">
         <li>Where: In my home office</li>
         <li>When: Wednesday and Friday between 8am and 10am</li>
         <li>Time: Minimum 2 hours per week. Goal: 4 hours per week</li>
@@ -15,13 +15,14 @@
     </ul>
 
 <h2>Practice Session Plans</h2>
-<ul>
+<ul class="bullet">
     <li>Style header and footer of my site</li>
     <li>Find colors that look good</li>
     <li>Create a simple PHP form emailer</li>
 </ul>
 
 <h2>Practice Session Reports</h2>
-<ul>
+<ul class="bullet">
     <li><a href="/Assessments/practice/2013-09-23">23 September 2013 - Building a PHP framework</a></li>
+    <li><a href="/Assessments/practice/2013-10-03">03 October 2013 - Designing the layout and basic styling</a></li>
 </ul>
