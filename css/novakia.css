@@ -72,37 +72,58 @@ ul.bullet, ol{
 /* Site Appearance */
 
 body{
-    background-image: linear-gradient(bottom, #69B2FB 0%, #962F0A 91%);
-    background-image: -o-linear-gradient(bottom, #69B2FB 0%, #962F0A 91%);
-    background-image: -moz-linear-gradient(bottom, #69B2FB 0%, #962F0A 91%);
-    background-image: -webkit-linear-gradient(bottom, #69B2FB 0%, #962F0A 91%);
-    background-image: -ms-linear-gradient(bottom, #69B2FB 0%, #962F0A 91%);
+    background-image: linear-gradient(bottom, #69B2FB 0%, #7D4F0D 91%);
+    background-image: -o-linear-gradient(bottom, #69B2FB 0%, #7D4F0D 91%);
+    background-image: -moz-linear-gradient(bottom, #69B2FB 0%, #7D4F0D 91%);
+    background-image: -webkit-linear-gradient(bottom, #69B2FB 0%, #7D4F0D 91%);
+    background-image: -ms-linear-gradient(bottom, #69B2FB 0%, #7D4F0D 91%);
 
     background-image: -webkit-gradient(
         linear,
         left bottom,
         left top,
         color-stop(0, #69B2FB),
-        color-stop(0.91, #962F0A)
+        color-stop(0.91, #7D4F0D)
     );
 
     color: #100000;
+    font-family: sans-serif;
+
+}
+h1, h2, h3, h4{
+    font-family: serif;
+}
+p{
+    margin-left: 20px;
+    max-width: 450px;
+}
+
+li{
+    max-width: 450px;
 }
 
 div#BodyContainer{
-    background-image: linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);
-    background-image: -o-linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);
-    background-image: -moz-linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);
-    background-image: -webkit-linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);
-    background-image: -ms-linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);
+    /*background-image: linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);*/
+    /*background-image: -o-linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);*/
+    /*background-image: -moz-linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);*/
+    /*background-image: -webkit-linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);*/
+    /*background-image: -ms-linear-gradient(bottom, #BFDFFF 0%, #69B2FB 71%);*/
 
-    background-image: -webkit-gradient(
-        linear,
-        left bottom,
-        left top,
-        color-stop(0, #BFDFFF),
-        color-stop(0.71, #69B2FB)
-    );
+    /*background-image: -webkit-gradient(*/
+        /*linear,*/
+        /*left bottom,*/
+        /*left top,*/
+        /*color-stop(0, #BFDFFF),*/
+        /*color-stop(0.71, #69B2FB)*/
+    /*);*/
+}
+
+a, a:visited:hover{
+    color: #0E457B
+}
+
+a:visited, a:hover{
+    color: #6583A0
 }
 
 h1{
@@ -122,11 +143,12 @@ h3{
 }
 
 nav{
-    background-color:#962F0A
+    /*background-color:#7D4F0D*/
 }
 
 nav li{
     background-color:#BFDFFF;
+    border-radius: 2px;
 }
 
 nav li a{
