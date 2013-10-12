@@ -4,6 +4,11 @@
     <title><?=$title?></title>
     <link rel="stylesheet" href="/css/reset.css" type="text/css" />
     <link rel="stylesheet" href="/css/novakia.css" type="text/css" />
+    <link rel="stylesheet" href="/js/colorbox/example3/colorbox.css" type="text/css" />
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="/js/colorbox/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="/js/novaktools.js"></script>
 
 
 </head>
