@@ -25,4 +25,5 @@
 <ul class="bullet">
     <li><a href="/Assessments/practice/2013-09-23">23 September 2013 - Building a PHP framework</a></li>
     <li><a href="/Assessments/practice/2013-10-03">03 October 2013 - Designing the layout and basic styling</a></li>
+    <li><a href="/Assessments/practice/2013-10-12">12 October 2013 - Using PHP to get latitude and longitude of a given address</a></li>
 </ul>
