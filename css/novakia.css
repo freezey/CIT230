@@ -38,6 +38,11 @@ nav li{
     padding: 4px;
 }
 
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 
 /* General Classes */
 .center{
