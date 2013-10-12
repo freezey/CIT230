@@ -22,6 +22,7 @@ div#FooterContainer{
     margin: -150px auto 0px auto;
     height: 150px;
     width: 800px;
+    padding-top: 25px;
     clear:both;
 }
 #TopNavContainer{
