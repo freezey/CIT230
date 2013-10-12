@@ -38,6 +38,7 @@ $header = ob_get_clean();
 $footerNavItems = array(
     'Home' => '/Home',
     'Deliberate Practice Plan' => '/Assessments/practicePlan',
+    'Site Plan' => '/Home/sitePlan',
 );
 
 ob_start();
