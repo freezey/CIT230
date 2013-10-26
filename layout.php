@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="en">
     <title><?=$title?></title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Site in Progress">
+
     <link rel="stylesheet" href="/css/reset.css" type="text/css" />
     <link rel="stylesheet" href="/css/novakia.css" type="text/css" />
     <link rel="stylesheet" href="/js/colorbox/example3/colorbox.css" type="text/css" />
