@@ -19,6 +19,14 @@ class Assessments extends BaseController{
         return $content;
     }
 
+    public function form(){
+        ob_start();
+        include('View/PracticeSessions/form.php');
+        $content = ob_get_clean();
+        $this->title = 'HTML Forms';
+        return $content;
+    }
+
     public function googleMaps(){
         $address = $_POST['address'];
         $latLon = $this->_getLatLon($address);

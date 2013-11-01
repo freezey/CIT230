@@ -29,7 +29,9 @@ if (file_exists(__DIR__ . '/' . 'Controller' . '/' . $controller . '.php')){
 
 $headerNavItems = array(
     'Home' => '/Home',
-    'What is a Form' => '/Form/WhatIs',
+    'What is a Form' => '/Assessments/form',
+    'Php Tools' => '/phpTools/index',
+    'Javascript Tools' => '/javascriptTools/index',
 );
 ob_start();
 include ('header.php');
