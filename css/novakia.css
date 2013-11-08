@@ -30,12 +30,16 @@ div#FooterContainer{
     height:28px;
 }
 
-nav li{
+#TopNavContainer nav li{
     display:inline-block;
     float:left;
     height: 20px;
     margin: 0 2px 0 0;
     padding: 4px;
+}
+
+#SiteMap nav ul{
+    float: left;
 }
 
 p{
@@ -56,6 +60,10 @@ p{
 
 .clear{
     clear:both;
+}
+
+.left{
+    float:left;
 }
 
 ol{
@@ -143,16 +151,23 @@ h3{
     margin: 3px 0px 8px 0px;
 }
 
+
 nav{
     /*background-color:#7D4F0D*/
 }
 
-nav li{
+#TopNavContainer nav li{
     background-color:#BFDFFF;
     border-radius: 2px;
 }
 
-nav li a{
+#TopNavContainer nav li a{
     text-decoration: none;
 }
 
+
+/* More specific styles */
+
+.home-nav-image{
+    margin: 25px;
+}
