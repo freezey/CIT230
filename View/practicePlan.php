@@ -29,4 +29,5 @@
     <li><a href="/Assessments/practice/2013-10-17">17 October 2013 - Layout for Forms page</a></li>
     <li><a href="/Assessments/practice/2013-10-19">19 October 2013 - Visual design changes</a></li>
     <li><a href="/Assessments/practice/2013-10-26">26 October 2013 - How to email form data</a></li>
+    <li><a href="/Assessments/practice/2013-11-09">09 November 2013 - HTML5 Canvas</a></li>
 </ul>
