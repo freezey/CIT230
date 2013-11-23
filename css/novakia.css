@@ -20,14 +20,14 @@ main{
 }
 div#FooterContainer{
     margin: -150px auto 0px auto;
-    height: 150px;
+    min-height: 150px;
     width: 800px;
-    padding-top: 25px;
+    padding: 25px 10px 10px 10px;
     clear:both;
 }
 #TopNavContainer{
     display: block;
-    height:28px;
+    /*height:28px;*/
 }
 
 #TopNavContainer nav li{
@@ -117,13 +117,8 @@ div#BodyContainer{
 }
 
 div#FooterContainer{
-    margin: -150px auto 0px auto;
-    height: 150px;
-    width: 800px;
-    clear:both;
     border-left: 4px solid #BFDFFF;
     border-right: 4px solid #BFDFFF;
-    padding: 25px 10px 10px 10px;
     background-color: #FFFFFF;
 }
 

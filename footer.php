@@ -15,6 +15,7 @@
             <?php
             }
             ?>
+        <div class="clear"></div>
     </nav>
-
+    <div class="clear"></div>
 </div>
