@@ -1,0 +1,10 @@
+# Use PHP 5.4
+# AddType application/x-httpd-php54 .php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /triathlon/
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ /index.php?url=$1 [QSA,L]
+</IfModule>

@@ -1,0 +1,167 @@
+/* Site Layout */
+
+html{
+    /*height: 100%;*/
+}
+body{
+    /*height: 100%;*/
+}
+
+div#BodyContainer{
+    width: 800px;
+    margin: 0px auto;
+    min-height: 100%;
+    display:block;
+}
+
+main{
+    overflow: auto;
+    padding-bottom: 150px;
+}
+div#FooterContainer{
+    margin: -150px auto 0px auto;
+    min-height: 150px;
+    width: 800px;
+    padding: 25px 10px 10px 10px;
+    clear:both;
+}
+#TopNavContainer{
+    display: block;
+    /*height:28px;*/
+}
+
+#TopNavContainer nav li{
+    display:inline-block;
+    float:left;
+    height: 20px;
+    margin: 0 2px 0 0;
+    padding: 4px;
+}
+
+#SiteMap nav ul{
+    float: left;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* General Classes */
+.center{
+    display: block;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clear{
+    clear:both;
+}
+
+.left{
+    float:left;
+}
+
+ol{
+    list-style-type: decimal;
+}
+
+ol li{
+    padding: 3px 0px 3px 0px;
+}
+
+ul.bullet, ol{
+    -webkit-padding-start: 40px;
+}
+
+.bullet, .bullet li{
+    list-style-type: disc;
+    padding: 3px 0px 3px 0px;
+    list-style-position: outside;
+}
+/* Site Appearance */
+
+body{
+    background-color: #000000;
+    /*background-color: #7D4F0D;*/
+    color: #FFFFFF;
+    font-family: sans-serif;
+
+}
+h1, h2, h3, h4{
+    font-family: serif;
+}
+p{
+    margin-left: 20px;
+    max-width: 450px;
+}
+
+li{
+    max-width: 450px;
+}
+
+div#BodyContainer{
+    background-color: #131313;
+    border: 4px solid;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-radius-topleft:25px;
+    border-radius-topright:25px;
+    border-color: #ACACAC;
+    padding: 10px;
+}
+
+div#FooterContainer{
+    border-left: 4px solid #ACACAC;
+    border-right: 4px solid #ACACAC;
+    background-color: #232323;
+}
+
+a, a:visited:hover{
+    color: #CCCCCC
+}
+
+a:visited, a:hover{
+    color: #DDDDDD
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 5px 0px 15px 0px;
+}
+h2{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 5px 0px 15px 0px;
+}
+h3{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 3px 0px 8px 0px;
+}
+
+
+nav{
+    /*background-color:#7D4F0D*/
+}
+
+#TopNavContainer nav li{
+    background-color:#333333;
+    border-radius: 2px;
+}
+
+#TopNavContainer nav li a{
+    text-decoration: none;
+}
+
+
+/* More specific styles */
+
+.home-nav-image{
+    margin: 25px;
+}
