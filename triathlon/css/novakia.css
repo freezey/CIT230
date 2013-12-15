@@ -8,7 +8,7 @@ body{
 }
 
 div#BodyContainer{
-    width: 800px;
+    width: 100%;
     margin: 0px auto;
     min-height: 100%;
     display:block;
@@ -105,28 +105,15 @@ li{
 }
 
 div#BodyContainer{
-    background-color: #131313;
-    border: 4px solid;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-radius-topleft:25px;
-    border-radius-topright:25px;
-    border-color: #ACACAC;
     padding: 10px;
 }
 
 div#FooterContainer{
-    border-left: 4px solid #ACACAC;
-    border-right: 4px solid #ACACAC;
     background-color: #232323;
 }
 
-a, a:visited:hover{
-    color: #CCCCCC
-}
-
-a:visited, a:hover{
-    color: #DDDDDD
+a{
+    color: #AAFFAA;
 }
 
 h1{

@@ -12,7 +12,7 @@
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script type="text/javascript" src="/triathlon/js/colorbox/jquery.colorbox-min.js"></script>
-    <script type="text/javascript" src="/triathlon/js/novaktools.js"></script>
+    <script type="text/javascript" src="/triathlon/js/triathlon.js"></script>
 
 
 </head>
