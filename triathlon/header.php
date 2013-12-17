@@ -1,4 +1,4 @@
-<h1 class="text-center"><a href="/Home"><img id="Logo" data-src-base="/triathlon/img/Jailbreak_Logo" data-src-ext=".png" class="center"></a></h1>
+<h1 class="text-center"><a href="/triathlon/Home"><img id="Logo" src="/triathlon/img/Jailbreak_Logo_large.jpg"></a></h1>
 <!--<div id="TopNavContainer">-->
 <!--    <nav>-->
 <!--        <ul>-->

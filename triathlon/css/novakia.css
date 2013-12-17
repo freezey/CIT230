@@ -35,20 +35,12 @@ p{
     margin-bottom: 5px;
 }
 
-div.content-widget-large{
-    width:50%;
-    height:50%;
-    margin: 3%;
-}
-
 div.content-widget{
-    width: 30%;
-    height: 25%;
-    margin: 3%;
-    border: 1px solid white;
+    margin: 1%;
+    float:left;
 }
 
-div.content-widget > h1, div.content-widget-large h1{
+div.content-widget h1, div.content-widget-large h1{
     text-align: center;
 }
 /* General Classes */
@@ -117,22 +109,23 @@ div#FooterContainer{
 
 a{
     color: #AAFFAA;
+    text-decoration: none;
 }
 
 h1{
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
     margin: 5px 0px 15px 0px;
     font-family: 'Permanent Marker', cursive;
 }
 h2{
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
     margin: 5px 0px 15px 0px;
     font-family: 'Permanent Marker', cursive;
 }
 h3{
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
     margin: 3px 0px 8px 0px;
     font-family: 'Permanent Marker', cursive;
