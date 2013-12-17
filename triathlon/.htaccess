@@ -6,5 +6,5 @@
     RewriteBase /triathlon/
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^(.*)$ /index.php?url=$1 [QSA,L]
+    RewriteRule ^(.*)$ /triathlon/index.php?url=$1 [QSA,L]
 </IfModule>

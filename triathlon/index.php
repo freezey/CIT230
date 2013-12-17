@@ -39,7 +39,8 @@ $header = ob_get_clean();
 
 $footerNavItems = array(
     'main' => array(
-        'Home' => '/Home',
+        'Home' => '/triathlon',
+        'Site Plan / Style Guide' => '/triathlon/Home/sitePlan'
 
     ),
 );

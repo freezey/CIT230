@@ -25,18 +25,6 @@ div#FooterContainer{
     padding: 25px 10px 10px 10px;
     clear:both;
 }
-#TopNavContainer{
-    display: block;
-    /*height:28px;*/
-}
-
-#TopNavContainer nav li{
-    display:inline-block;
-    float:left;
-    height: 20px;
-    margin: 0 2px 0 0;
-    padding: 4px;
-}
 
 #SiteMap nav ul{
     float: left;
@@ -47,7 +35,22 @@ p{
     margin-bottom: 5px;
 }
 
+div.content-widget-large{
+    width:50%;
+    height:50%;
+    margin: 3%;
+}
 
+div.content-widget{
+    width: 30%;
+    height: 25%;
+    margin: 3%;
+    border: 1px solid white;
+}
+
+div.content-widget > h1, div.content-widget-large h1{
+    text-align: center;
+}
 /* General Classes */
 .center{
     display: block;
@@ -89,7 +92,7 @@ body{
     background-color: #000000;
     /*background-color: #7D4F0D;*/
     color: #FFFFFF;
-    font-family: sans-serif;
+    font-family: serif;
 
 }
 h1, h2, h3, h4{
@@ -109,7 +112,7 @@ div#BodyContainer{
 }
 
 div#FooterContainer{
-    background-color: #232323;
+    /*background-color: #232323;*/
 }
 
 a{
@@ -120,16 +123,19 @@ h1{
     font-size: 1.5em;
     font-weight: bold;
     margin: 5px 0px 15px 0px;
+    font-family: 'Permanent Marker', cursive;
 }
 h2{
     font-size: 1.3em;
     font-weight: bold;
     margin: 5px 0px 15px 0px;
+    font-family: 'Permanent Marker', cursive;
 }
 h3{
     font-size: 1.2em;
     font-weight: bold;
     margin: 3px 0px 8px 0px;
+    font-family: 'Permanent Marker', cursive;
 }
 
 
@@ -151,4 +157,13 @@ nav{
 
 .home-nav-image{
     margin: 25px;
+}
+
+#SitePlan{
+    width:450px;
+    margin: 0 auto;
+}
+
+#SitePlan li{
+    text-align: left;
 }

@@ -1,6 +1,6 @@
 <div id="SiteMap">
     <nav>
-        <h3>Site Map</h3>
+<!--        <h3>Site Map</h3>-->
             <?php foreach ($footerNavItems as $group => $items){
                 ?>
                 <ul>
