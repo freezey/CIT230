@@ -20,7 +20,11 @@ NS = function($){
     }
 
     function positionContentAreas(){
-        var screenWidth = $(window).innerWidth();
+        if (screen.width){
+            var screenWidth = screen.width;
+        }
+        var windowWidth = $(window).innerWidth();
+        screenWidth = Math.min(screenWidth, windowWidth);
         var $contentAreas = $('.content-widget');
         var totalContentWidth = 0;
         $contentAreas.each(function(index, element){
