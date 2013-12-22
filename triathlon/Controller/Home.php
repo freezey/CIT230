@@ -17,4 +17,24 @@ class Home extends BaseController{
         return $content;
     }
 
+    public function assetList(){
+        ob_start();
+        include('View/assetList.php');
+        $content = ob_get_clean();
+        return $content;
+    }
+
+    public function register(){
+        ob_start();
+        include('View/register.php');
+        $content = ob_get_clean();
+        return $content;
+    }
+
+    public function historical(){
+        ob_start();
+        include('View/historical.php');
+        $content = ob_get_clean();
+        return $content;
+    }
 }

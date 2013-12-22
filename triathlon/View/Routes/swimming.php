@@ -1,3 +1,7 @@
+<div class="clear">
+    <a href="/triathlon/Routes"><h1>Back to Routes</h1></a>
+</div>
+
 <div class="content-widget">
     <h1>Swimming Route</h1>
     <p>This is a 3 mile swim that will take you all the way around the historic and beautiful island of Alcatraz.</p>
@@ -6,10 +10,13 @@
 
 </div>
 
+
 <div class="content-widget">
-    <img src="/triathlon/img/Alcatraz_aerial.jpg"
+    <h1>The approach to Alcatraz</h1>
+    <img src="/triathlon/img/Alcatraz_water_500wide.jpg">
 </div>
 
 <div class="content-widget">
-    <img src="/triathlon/img/Alcatraz_water.jpg">
+    <h1>Aerial view of Alcatraz</h1>
+    <img src="/triathlon/img/Alcatraz_aerial.jpg">
 </div>

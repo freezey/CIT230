@@ -8,14 +8,16 @@ NS = function($){
     });
 
     function init(){
-        $('.colorbox').colorbox({
-            maxWidth:'50%'
-        });
-
         jQuery(window).load(function(){
             positionContentAreas();
             $(window).on('resize', positionContentAreas);
         });
+
+        if (jQuery.fn.colorbox){
+            $('.colorbox').colorbox({
+                maxWidth: '50%'
+            });
+        }
 
     }
 
@@ -30,7 +32,7 @@ NS = function($){
         $contentAreas.each(function(index, element){
             totalContentWidth += $(element).outerWidth();
         });
-        if (totalContentWidth > screenWidth){
+//        if (totalContentWidth > screenWidth){
             if (totalContentWidth < screenWidth * 1.5){
                 var horizontalGroups = 1;
             } else {
@@ -63,13 +65,16 @@ NS = function($){
                     if (scaleRatio > 1.2){
                         scaleRatio = 1.2;
                     }
+                    $element.after('<div class="clear"></div>');
                 } else {
                     column++;
                 }
             });
-            var $logo = $('#Logo');
-            $logo.width($logo.width() * rowOneScaleRatio);
-        }
+            if (rowOneScaleRatio < 1){
+                var $logo = $('#Logo');
+                $logo.width($logo.width() * rowOneScaleRatio);
+            }
+//        }
     }
 
 }(jQuery);
