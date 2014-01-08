@@ -17,7 +17,8 @@ $assets = array(
     'FortBakerParade.jpg' => 'http://www.nps.gov/goga/historyculture/fort-baker.htm (http://www.nps.gov/goga/historyculture/images/GOGA-19194-015-Ft-Baker-Par.jpg)',
     'FortBaker_landscape.jpg' => 'http://www.nps.gov/goga/historyculture/fort-baker.htm (http://www.nps.gov/goga/images/new-FOBA-landscape.jpg)',
     'GoldenGateBridge_construction.jpg' => 'http://blogs.kqed.org/newsfix/2012/05/22/golden-gate-bridge-history-in-photos/ (http://blogs.kqed.org/newsfix/files/2012/05/bridgehanging-1024x804.jpg)',
-    'LyfordHouse.jpg' => 'http://en.wikipedia.org/wiki/File:Lyforderazorback.jpg'
+    'LyfordHouse.jpg' => 'http://en.wikipedia.org/wiki/File:Lyforderazorback.jpg',
+    'Richardson_Bay.jpg' => 'http://en.wikipedia.org/wiki/File:Richardson_Bay_4.jpg',
 );
 ?>
 

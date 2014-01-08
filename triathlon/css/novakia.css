@@ -90,10 +90,10 @@
     /* Site Appearance */
 
     @font-face {
-        font-family: 'Permanent Marker';
+        font-family: PermanentMarker;
         font-style: normal;
         font-weight: 400;
-        src: local('Permanent Marker'), local('PermanentMarker'), url(PermanentMarker.woff) format('woff');
+        src: url(PermanentMarker.woff);
     }
 
 
@@ -133,19 +133,19 @@
         font-size: 1.7em;
         font-weight: bold;
         margin: 5px 0px 15px 0px;
-        font-family: 'Permanent Marker', cursive;
+        font-family: 'PermanentMarker', cursive;
     }
     h2{
         font-size: 1.5em;
         font-weight: bold;
         margin: 5px 0px 15px 0px;
-        font-family: 'Permanent Marker', cursive;
+        font-family: 'PermanentMarker', cursive;
     }
     h3{
         font-size: 1.3em;
         font-weight: bold;
         margin: 3px 0px 8px 0px;
-        font-family: 'Permanent Marker', cursive;
+        font-family: 'PermanentMarker', cursive;
     }
 
 

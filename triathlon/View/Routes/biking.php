@@ -1,5 +1,5 @@
 <div class="clear">
-    <a href="/triathlon/Routes"><h1>Back to Routes</h1></a>
+    <h1><a href="/triathlon/Routes">Back to Routes</a></h1>
 </div>
 
 <div class="content-widget">

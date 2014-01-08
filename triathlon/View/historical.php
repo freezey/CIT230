@@ -12,7 +12,7 @@
 
 <div class="content-widget">
     <h1>Fort Baker</h1>
-    <p>This fort headquartered the defense of the San Francisco Bay from this mid 1800's through the end of WWII.  Today its buildings have varied uses including a conference center and a Coast Guard post</p>
+    <p>This fort headquartered the defense of the San Francisco Bay from the mid 1800's through the end of WWII.  Today its buildings have varied uses including a conference center and a Coast Guard post</p>
     <img src="/triathlon/img/FortBaker_landscape_450wide.jpg">
 </div>
 

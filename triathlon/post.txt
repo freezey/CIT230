@@ -1,0 +1,8 @@
+POST Data:
+recipient_email=freezey@gmail.com
+name=test
+Email=test@test.test
+AgeGroup=10-15
+comments=123
+
+GET Data:

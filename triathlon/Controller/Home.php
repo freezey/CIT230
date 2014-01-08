@@ -37,4 +37,11 @@ class Home extends BaseController{
         $content = ob_get_clean();
         return $content;
     }
+
+    public function ThankYou(){
+        ob_start();
+        include('View/register_thank_you.php');
+        $content = ob_get_clean();
+        return $content;
+    }
 }

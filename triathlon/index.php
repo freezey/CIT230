@@ -42,6 +42,7 @@ $footerNavItems = array(
         'Home' => '/triathlon',
         'Site Plan / Style Guide' => '/triathlon/Home/sitePlan',
         'Asset List' => '/triathlon/Home/assetList',
+        'Contact' => '/triathlon/Home/register',
     ),
 );
 
